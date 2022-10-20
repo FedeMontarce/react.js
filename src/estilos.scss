@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body , #root {
+    height: 100%;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+$color-primary: rgb(216, 73, 73) ;
+
+#main-header {
+    background-color: $color-primary;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+}
+
+main{
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+footer{
+    background-color: $color-primary;
+    padding: 1rem;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }

@@ -16,7 +16,8 @@ html , body , #root {
     flex-direction: column;
 }
 
-$color-primary: rgb(216, 73, 73) ;
+// $color-primary: rgb(216, 73, 73) ;
+$color-primary: white;
 
 #main-header {
     background-color: $color-primary;
@@ -31,6 +32,9 @@ $color-primary: rgb(216, 73, 73) ;
 main{
     flex-grow: 1;
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer{
@@ -66,3 +70,4 @@ footer{
     background: #125688;
     color: white;
   }
+

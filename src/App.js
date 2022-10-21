@@ -8,7 +8,7 @@ function App() {
     return (
         <>
             <Header
-            titulo = "KND:Disqueria"
+            titulo = "KND : Disqueria"
             />
             <Main
             artista = "Artista/Banda:"

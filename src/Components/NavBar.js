@@ -1,11 +1,12 @@
 import React from "react";
+import { Button } from 'antd';
 
 const NavBar = () => {
     return(
         <nav>
-            <a href="#">Ver Todos-</a>
-            <a href="#">Mas populares-</a>
-            <a href="#">Lanzamientos</a>
+            <Button type="primary" ghost>Ver Todos</Button>
+            <Button type="primary" ghost>Mas populares</Button>
+            <Button type="primary" ghost>Lanzamientos</Button>
         </nav>
     )
 }

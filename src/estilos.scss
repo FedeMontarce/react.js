@@ -16,7 +16,6 @@ html , body , #root {
     flex-direction: column;
 }
 
-// $color-primary: rgb(216, 73, 73) ;
 $color-primary: white;
 
 #main-header {
@@ -27,6 +26,20 @@ $color-primary: white;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 0.5rem 1rem;
+}
+
+#barra-icono{
+    display: flex;
+    justify-content:left;
+    align-items: flex-start;
+
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 30px;
 }
 
 main{

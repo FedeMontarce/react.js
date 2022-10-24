@@ -1,5 +1,4 @@
 import React from 'react'
-import ContadorContainer from './ItemListContainer'
 import { Card } from 'antd';
 import { Col, Row } from 'antd';
 

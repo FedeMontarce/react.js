@@ -1,23 +1,12 @@
-import React, { useState } from 'react';
-import Contador from './Contador'
+import React from "react";
+import { Space, Typography } from 'antd';
 
-const ContadorContainer = () => {
+const { Text, Link } = Typography;
 
-    const [contador,setContador] = useState(0)
-    const [habilitado,setHabilitado] = useState(false)
-
-    let handleClick = () => {
-        setContador(contador + 1)
-        // setHabilitado(true)
-    }
-
-    return (
-        <Contador 
-            handleClick={handleClick}
-            habilitado={habilitado}
-            contador={contador}
-        />
+const Title = (prop) => {
+    return(
+        <h1 id="titulo"><Text italic >{prop.Titulo}</Text></h1>
     )
 }
 
-export default ContadorContainer
+export default Title

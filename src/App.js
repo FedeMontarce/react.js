@@ -2,17 +2,16 @@ import React from "react"
 import Header from "./Header"
 import Main from "./Main"
 import Footer from "./Footer"
-
+import Title from "./ItemListContainer"
 
 function App() {
     return (
         <>
-            <Header
-            titulo = "KND : Disqueria"
+            <Header/>
+            <Title 
+            Titulo = "Albumes/Artistas:"
             />
-            <Main
-            artista = "Artista/Banda:"
-            />
+            <Main/>
             <Footer/>
         </>
     )

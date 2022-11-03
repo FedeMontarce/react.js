@@ -4,6 +4,7 @@ import Main from "./Main"
 import Footer from "./Footer"
 import Title from "./ItemListContainer"
 import { BrowserRouter } from "react-router-dom"
+import { ToastContainer } from "react-toastify"
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             />
             <Main/>
             <Footer/>
+            <ToastContainer/>
         </BrowserRouter>
     )
 }

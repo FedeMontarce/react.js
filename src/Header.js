@@ -1,16 +1,15 @@
 import React from "react"
 import NavBar from "./Components/NavBar"
-import Icon from "./CartWidget"
 import { Space, Typography } from 'antd';
+import { Link } from "react-router-dom"
 
-const { Text, Link } = Typography;
+const { Text } = Typography;
 
 function Header(prop) {
     return (
         <header id="main-header" className="header">
-            <h1><Text italic >KND : Disqueria</Text></h1>
+            <Link to="/"><h1><Text italic >KND : Disqueria</Text></h1></Link>
             <NavBar/>
-            <Icon/>
         </header>
     )
 }
